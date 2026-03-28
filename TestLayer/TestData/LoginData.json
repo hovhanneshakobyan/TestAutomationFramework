@@ -1,0 +1,28 @@
+﻿{
+  "TestCases": [
+    {
+      "TestName": "UC1_EmptyCredentials",
+      "Username": "",
+      "Password": "",
+      "ExpectedError": "Epic sadface: Username is required"
+    },
+    {
+      "TestName": "UC2_OnlyUsernameProvided",
+      "Username": "standard_user",
+      "Password": "",
+      "ExpectedError": "Epic sadface: Password is required"
+    },
+    {
+      "TestName": "UC3_ValidLogin_StandardUser",
+      "Username": "standard_user",
+      "Password": "secret_sauce",
+      "ExpectedError": null
+    },
+    {
+      "TestName": "UC3_ValidLogin_ProblemUser",
+      "Username": "problem_user",
+      "Password": "secret_sauce",
+      "ExpectedError": null
+    }
+  ]
+}

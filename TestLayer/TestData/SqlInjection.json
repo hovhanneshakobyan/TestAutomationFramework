@@ -1,0 +1,19 @@
+﻿//{
+//  "TestName": "UC3_ValidLogin_PerformanceGlitchUser",
+//  "Username": "performance_glitch_user",
+//  "Password": "secret_sauce",
+//  "ExpectedError": null
+//},
+//SQL INJECTION TESTS
+//{
+//  "TestName": "UC4_UnionSQLInjectionAttempt",
+//  "Username": "' OR '1'='1",
+//  "Password": "' OR '1'='1",
+//  "ExpectedError": "Epic sadface: Username and password do not match any user in this service"
+//},
+//{
+//  "TestName": "UC4_BasicXSSAttempt",
+//  "Username": "<script>alert(1)</script>",
+//  "Password": "secret_sauce",
+//  "ExpectedError": "Epic sadface: Username and password do not match any user in this service"
+//}
